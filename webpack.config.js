@@ -47,9 +47,10 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Webpack App',
+      title: 'Kanye Quote React App with Webpack and Axios',
       filename: 'index.html',
       template: 'src/template.html',
+      favicon: "./src/assets/kanye-head.png"
     }),
 
   ],
